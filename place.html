@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panama Web Page</title>
+
+    <meta name="description" content="Web Page about Panama">
+    <meta name="author" content="Victor Elias Murillo">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Panama</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="City">
+            <picture>
+                <source srcset="images/PanamaCity_large.webp" media="(min-width: 1200px)">
+
+                <source srcset="images/PanamaCity_medium.webp" media="(min-width:600px)">
+
+                <img src="images/PanamaCity_small.webp" alt="Panama City">
+            </picture>
+        </div>
+
+        
+
+        <section class="card" id="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 75,571 square kilometers</p>
+            <p><strong>Population:</strong> 4,314,768 </p>
+            <p><strong>Capital:</strong> Panama City</p>
+            <p><strong>Languages:</strong> Spanish</p>
+            <p><strong>Currency:</strong> U.S. Dollar (USD)</p>
+            <p><strong>Time Zone:</strong> UTC-5 </p>
+            <p><strong>Calling Code:</strong> +507</p>
+            <p><strong>Internet TLD:</strong> .pa</p>
+
+        </section>
+
+        <section class="card" id="weather">
+            <h2>
+                Weather
+                
+            </h2>
+            
+            <p><strong>Temperature:</strong> Approximately 31°C (88°F) during the day, cooling to around 23°C (74°F) at night.</p>
+            <p><strong>Conditions:</strong> Generally clear skies with minimal rainfall, as February is part of the dry season in Panama. </p>
+            <p><strong>Wind:</strong> Light to moderate breezes, averaging around 3 on the Beaufort scale.</p>
+            <p><strong>Humidity:</strong> Approximately 77%, which is relatively high but typical for the region.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> - Victor Murillo-Panama</p>
+        <p> Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
