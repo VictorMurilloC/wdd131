@@ -28,7 +28,7 @@ nav ul li {
     text-align: center;
     padding: 50px 20px;
     background: url('../images/rafting1.jpg') no-repeat center center/cover;
-    color: rgba(255, 255, 255, 0.267);
+    color: rgb(5, 0, 0);
 }
 
 button {
@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-    background: #005f8f;
+    background: #054b91;
 }
 
 .why-choose-us, .testimonials, .trip-options, .faq, .safety-checklist, .insurance {
