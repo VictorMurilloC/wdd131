@@ -36,13 +36,8 @@ nav ul li {
     color: rgb(244, 244, 244);
 }
 
-.trip {
-    background: url('../images/rafting2.jpg')
-}
-
-
-button {
-    background: #0077b6;
+.button {
+    background: #92bbd2;
     color: white;
     padding: 10px;
     border-radius: 5px;
