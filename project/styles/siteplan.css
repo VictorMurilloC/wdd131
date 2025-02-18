@@ -1,0 +1,119 @@
+/* Global Styles */
+:root {
+    --color1: #3e5c57;  /* Dark Green */
+    --color2: #53b5a0;  /* Light Teal */
+    --color3: #d9c26f;  /* Light Yellow */
+    --color4: #f7d3a1;  /* Light Peach */
+    --color5: #9ba7c0;  /* Light Gray */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color1);
+    background-color: var(--color4);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--color1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: var(--color2);
+    font-size: 1.8rem;
+    border-bottom: 3px solid var(--color2);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    color: var(--color1);
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: var(--color3);
+    color: var(--color1);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Wireframe Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color1);
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--color3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
