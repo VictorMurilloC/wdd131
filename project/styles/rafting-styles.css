@@ -28,8 +28,10 @@ nav ul li {
 
 .hero-container {
     text-align: center;
-    padding: 200px 200px;
+    padding: 200px ;
     background: url('../images/rafting1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: auto;
     color: rgb(244, 244, 244);
 }
 
