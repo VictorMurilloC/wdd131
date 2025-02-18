@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience thrilling whitewater rafting adventures. Book your trip today!">
+    <meta name="author" content="Victor Murillo">
+    
+    <title>Whitewater Rafting Adventures</title>
+
+    <link rel="stylesheet" href="styles/rafting-styles.css">
+    <script src="scripts/rafting.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Whitewater Rafting Logo" width="150">
+        <h1>Whitewater Rafting Adventures</h1>
+
+        <nav>
+            <button class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips & Booking</a></li>
+                <li><a href="safety.html">Safety & Tips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <section class="hero">
+                <h2>Experience the Thrill of Rafting</h2>
+                <p>Join us for an unforgettable adventure on the river!</p>
+                <button onclick="window.location.href='trips.html'">View Trips</button>
+            </section>
+        </div>
+
+        <section class="cards"> 
+            <div class="card">
+                <button onclick="window.location.href='trips.html'">Book Your Trip</button>
+            </div>
+
+            <div class="card">
+                <button onclick="window.location.href='safety.html'">Safety Tips</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> - Victor Murillo - Whitewater Rafting Adventures</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
+

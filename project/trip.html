@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips & Booking - Whitewater Rafting</title>
+    <link rel="stylesheet" href="styles/rafting-styles.css">
+    <script src="scripts/rafting.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Our Exciting Rafting Trips</h1>
+        <nav>
+            <button class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips & Booking</a></li>
+                <li><a href="safety.html">Safety & Tips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Available Trips</h2>
+        <ul>
+            <li>Beginner Rapids - $50</li>
+            <li>Intermediate Rapids - $75</li>
+            <li>Advanced Rapids - $100</li>
+        </ul>
+        <button onclick="window.location.href='contact.html'">Book Now</button>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> - Whitewater Rafting</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
