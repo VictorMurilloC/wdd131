@@ -36,6 +36,11 @@ nav ul li {
     color: rgb(244, 244, 244);
 }
 
+.trip-options {
+    background: url('../images/rafting2.jpg')
+}
+
+
 button {
     background: #0077b6;
     color: white;
@@ -70,4 +75,16 @@ button:hover {
     display: inline-block;
     border-radius: 5px;
     margin: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 3rem 0;
+    
+}
+
+footer p {
+    font-size: 1.2rem;
 }
