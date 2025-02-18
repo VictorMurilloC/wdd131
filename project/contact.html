@@ -21,29 +21,38 @@
     </header>
 
     <main>
-        <h2>Get in Touch</h2>
-        <p>Email: info@raftingadventures.com</p>
-        <p>Phone: (507) 456-7890</p>
-
-        <h2>Request an Invoice</h2>
-        <form id="invoiceForm">
+        <h2>Contact Us & Request an Invoice</h2>
+        <p>Have questions? Want to book a trip? Fill out the form below, and we’ll get back to you ASAP!</p>
+    
+        <section class="contact-info">
+            <h3>📍 Our Location</h3>
+            <p>123 River Road, Adventure Town, USA</p>
+    
+            <h3>📞 Call Us</h3>
+            <p>(555) 123-4567</p>
+    
+            <h3>📧 Email</h3>
+            <p>info@raftingadventures.com</p>
+        </section>
+    
+        <h3>Request an Invoice</h3>
+        <form action="submit-invoice.php" method="POST">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required>
-
+    
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
-
+    
             <label for="trip">Select Your Trip:</label>
-            <select id="trip" name="trip" required>
-                <option value="">-- Choose a Trip --</option>
-                <option value="beginner">Beginner Rapids - $50</option>
-                <option value="intermediate">Intermediate Rapids - $75</option>
-                <option value="advanced">Advanced Rapids - $100</option>
+            <select id="trip" name="trip">
+                <option value="beginner">Beginner Rapids ($50)</option>
+                <option value="intermediate">Intermediate Rapids ($75)</option>
+                <option value="advanced">Advanced Rapids ($100)</option>
             </select>
-
-            <label for="details">Additional Information:</label>
-            <textarea id="details" name="details" rows="4"></textarea>
-
+    
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes"></textarea>
+    
             <button type="submit">Request Invoice</button>
         </form>
 

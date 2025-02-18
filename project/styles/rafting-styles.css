@@ -40,3 +40,28 @@ button {
 button:hover {
     background: #005f8f;
 }
+
+.why-choose-us, .testimonials, .trip-options, .faq, .safety-checklist, .insurance {
+    background: #f7d3a1;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.trip-options .trip {
+    background: #9ba7c0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cta-button {
+    background: #53b5a0;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
