@@ -27,7 +27,7 @@ nav ul li {
     text-align: center;
     padding: 50px 20px;
     background: url('../images/rafting1.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgba(255, 255, 255, 0.267);
 }
 
 button {
