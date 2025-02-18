@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #003366; 
+    --secondary-color: #00494d; 
+    --background-color: #f0f0f0; 
+    --text-color: #000; 
+    --label-color: #333; 
+    --input-background: #fff; 
+    --input-border: #666; 
+    --star-color: #00ff33; 
+    --star-unselected-color: #666; 
+    --footer-color: #333; 
+    --optional-color: #333; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--input-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: var(--label-color);
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: var(--input-background);
+    color: var(--text-color);
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    position: relative;
+}
+
+.rating label span {
+    font-size: 2em;
+    color: var(--star-unselected-color); 
+    cursor: pointer;
+}
+
+.rating input:checked + label span {
+    color: var(--star-color);
+}
+
+.rating label:hover span,
+.rating label:hover span ~ span {
+    color: var(--star-color);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.optional {
+    color: var(--optional-color); 
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--footer-color); 
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px; 
+    }
+
+    form {
+        padding: 10px; 
+    }
+
+    .rating {
+        flex-direction: column; 
+        align-items: start; 
+        gap: 5px; 
+    }
+
+    .features {
+        gap: 5px; 
+    }
+}
