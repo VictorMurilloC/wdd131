@@ -28,7 +28,7 @@ nav ul li {
 
 .hero-container {
     text-align: center;
-    padding: 50px 50px;
+    padding: 5px 5px;
     background: url('../images/rafting1.jpg') no-repeat center center/cover;
     color: rgb(244, 244, 244);
 }
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background: #054b91;
+    background: #fbfbfc;
 }
 
 .why-choose-us, .testimonials, .trip-options, .faq, .safety-checklist, .insurance {
